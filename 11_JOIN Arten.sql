@@ -26,6 +26,10 @@ pro Zeile wird in der größeren Tabelle nach dem Wert gesucht
 --gut , wenn eine Tabelle bzw (Where)Ergebnis sehr klei ist und 
 die größere sortiert ist.
 
+Adaptiv Join
+--SQL kann während der Laufzeit wählen
+--aber nur zwischen Hash und loop join
+
 
 */
 select * from customers c inner merge join orders o on c.CustomerID= o.CustomerID
